@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import BenefitCard from "./BenefitCard";
-import invoice1 from "../app/asserts/Invoice 1.png"
-import invoice2 from "../app/asserts/Invoice2.png"
-import invoice3 from "../app/asserts/Invoice3.png"
-import check from "../app/asserts/verified.png"
+import invoice1 from "../app/asserts/invoice1.png"
+import invoice2 from "../app/asserts/invoice2.png"
+import invoice3 from "../app/asserts/invoice3.png"
 
 const BenefitContainer = () => {
     return(
-        <div className="flex gap-4 relative">
+        <div className="flex gap-4">
             <BenefitCard 
                 src={invoice1}
                 title="Automatic Invoice Payment"
@@ -24,13 +23,6 @@ const BenefitContainer = () => {
                 title="Use of multi-card payments"
                 text="Have more than 1 bank account or credit/debit card? Our platform is already integrated with many banks around the world, for easier payments!"
             />
-            <div className="absolute flex gap-1 justify-center items-center p-2 rounded-full top-14 left-44 bg-white">
-                <Image
-                    src={check}
-                    alt="verified"
-                />
-                <p className="text-black font-semibold text-[14px]">Verified</p>
-            </div>
         </div>
     )
 }

@@ -4,6 +4,9 @@ import BenefitTitle from "@/components/BenefitTitle";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
+import SecondBenefit from "@/components/SecondBenefit";
+import SecondBenefitTitle from "@/components/SecondBenefitTitle";
+import SecondBenefitContainer from "@/components/SecondBenefitContainer";
 
 export default function Home() {
   return (
@@ -25,6 +28,10 @@ export default function Home() {
         <BenefitContainer />
       </Benefit>
 
+      <SecondBenefit>
+        <SecondBenefitTitle />
+        <SecondBenefitContainer />
+      </SecondBenefit>
     </>
   );
 }

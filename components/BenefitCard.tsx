@@ -10,13 +10,14 @@ type BenefitContainerProps = {
 
 const BenefitCard: React.FC<BenefitContainerProps> = ({title, text, src}) => {
     return(
-        <div className="relative flex flex-col overflow-hidden gap-4">
-            <div className="w-[290px] h-[332px] rounded-lg bg-gray-200"></div>
-            <Image 
-                src={src}
-                alt="invoice"
-                className="absolute top-8 left-0 w-[250px] h-[300px]"
-            />
+        <div className="flex flex-col justify-between gap-4">
+            <div>
+                <Image 
+                    src={src}
+                    alt=""
+                    width={300}
+                />
+            </div>
             <div>
                 <h4 className="text-black font-bold text-lg">{title}</h4>
                 <p className="text-gray-500 text-[13px] mt-1">{text}</p>
