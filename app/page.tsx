@@ -7,6 +7,10 @@ import Navbar from "@/components/Navbar";
 import SecondBenefit from "@/components/SecondBenefit";
 import SecondBenefitTitle from "@/components/SecondBenefitTitle";
 import SecondBenefitContainer from "@/components/SecondBenefitContainer";
+import HowItWork from "@/components/HowItWork";
+import HowItWorkTitle from "@/components/HowItWorkTitle";
+import HowItWorkCardContainer from "@/components/HowItWorkCardContainer";
+import HowItWorkFooter from "@/components/HowItWorkFooter";
 
 export default function Home() {
   return (
@@ -32,6 +36,12 @@ export default function Home() {
         <SecondBenefitTitle />
         <SecondBenefitContainer />
       </SecondBenefit>
+
+      <HowItWork>
+        <HowItWorkTitle />
+        <HowItWorkCardContainer />
+        <HowItWorkFooter />
+      </HowItWork>
     </>
   );
 }

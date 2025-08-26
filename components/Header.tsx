@@ -11,7 +11,7 @@ const Header = () => {
             <div className="w-[25%]">
                 <p className="text-gray-400 text-center">Your one-stop finance empower platform. Manage all your business expenses with our supafast app.</p>
             </div>
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex justify-center items-center gap-2 text-white text-[14px]">
                 <button className="p-2.5 rounded-full bg-blue-500 cursor-pointer">Get a Free Demo</button>
                 <button className="p-2.5 rounded-full bg-gray-700 cursor-pointer">See Pricing</button>
             </div>

@@ -6,7 +6,7 @@ type SecondBenefitProps = {
 
 const SecondBenefit:React.FC<SecondBenefitProps> = ({children}) => {
     return(
-        <div className="flex gap-4 bg-white justify-center items-center">
+        <div className="flex gap-4 bg-white justify-center items-center pb-10">
             <div className="w-[70%] flex flex-col justify-center items-center gap-8">{children}</div>
         </div>
     )
