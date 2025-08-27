@@ -11,6 +11,7 @@ import HowItWork from "@/components/HowItWork";
 import HowItWorkTitle from "@/components/HowItWorkTitle";
 import HowItWorkCardContainer from "@/components/HowItWorkCardContainer";
 import HowItWorkFooter from "@/components/HowItWorkFooter";
+import HowItWork2 from "@/components/HowItWork2";
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
         <HowItWorkCardContainer />
         <HowItWorkFooter />
       </HowItWork>
+
+      <HowItWork2 />
     </>
   );
 }
