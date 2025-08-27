@@ -12,6 +12,12 @@ import HowItWorkTitle from "@/components/HowItWorkTitle";
 import HowItWorkCardContainer from "@/components/HowItWorkCardContainer";
 import HowItWorkFooter from "@/components/HowItWorkFooter";
 import HowItWork2 from "@/components/HowItWork2";
+import SucessStorie from "@/components/SucessStorie";
+import SucessTitle from "@/components/SucessTitle";
+import SucessStorieContainer from "@/components/SucessStorieContainer";
+import SecondSucessStorie from "@/components/SecondSuccesStorie";
+import SecondSucessTitle from "@/components/SecondSucessTitle";
+import SecondSucessStorieContainer from "@/components/SecondSucessStorieContainer";
 
 export default function Home() {
   return (
@@ -45,6 +51,16 @@ export default function Home() {
       </HowItWork>
 
       <HowItWork2 />
+
+      <SucessStorie>
+        <SucessTitle />
+        <SucessStorieContainer />
+      </SucessStorie>
+
+      <SecondSucessStorie>
+        <SecondSucessTitle />
+        <SecondSucessStorieContainer />
+      </SecondSucessStorie>
     </>
   );
 }
