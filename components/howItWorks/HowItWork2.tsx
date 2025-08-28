@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import content from "../app/asserts/content.png"
-import stepper from "../app/asserts/Stepper.png"
+import content from "../../app/asserts/content.png"
+import stepper from "../../app/asserts/Stepper.png"
 
 const HowItWork2 = () => {
     return(

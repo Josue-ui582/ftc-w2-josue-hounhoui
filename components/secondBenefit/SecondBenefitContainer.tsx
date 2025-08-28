@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import frame1 from "../app/asserts/Frame-1.png"
-import frame2 from "../app/asserts/Frame-2.png"
-import frame3 from "../app/asserts/Frame-3.png"
-import imageContainer from "../app/asserts/Content.png"
+import frame1 from "../../app/asserts/Frame-1.png"
+import frame2 from "../../app/asserts/Frame-2.png"
+import frame3 from "../../app/asserts/Frame-3.png"
+import imageContainer from "../../app/asserts/Content.png"
 
 const SecondBenefitContainer = () => {
     return(

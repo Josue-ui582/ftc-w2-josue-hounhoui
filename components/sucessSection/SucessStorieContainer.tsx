@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { CiCircleCheck } from "react-icons/ci";
-import storie from "../app/asserts/success-stories.png"
+import storie from "../../app/asserts/success-stories.png"
 import ToggleSpendIn from "./ToggleSpendIn";
 
 const SucessStorieContainer = () => {

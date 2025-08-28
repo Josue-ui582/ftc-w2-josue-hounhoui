@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../app/asserts/Logo.png"
+import logo from "../../app/asserts/Logo.png"
 import { IoChevronDownSharp } from "react-icons/io5";
 
 const Navbar = () => {

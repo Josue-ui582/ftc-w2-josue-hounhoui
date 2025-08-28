@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import storie2 from "../app/asserts/success-stories2.png"
+import storie2 from "../../app/asserts/success-stories2.png"
 import ToggleSpendIn from "./ToggleSpendIn";
 
 const SecondSucessStorieContainer = () => {

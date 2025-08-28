@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import dashboard from "../app/asserts/dashboard.png"
+import dashboard from "../../app/asserts/dashboard.png"
 
 const Header = () => {
     return(

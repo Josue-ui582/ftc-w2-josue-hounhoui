@@ -1,9 +1,8 @@
 import React from "react";
-import Image from "next/image";
 import BenefitCard from "./BenefitCard";
-import invoice1 from "../app/asserts/invoice1.png"
-import invoice2 from "../app/asserts/invoice2.png"
-import invoice3 from "../app/asserts/invoice3.png"
+import invoice1 from "../../app/asserts/invoice1.png"
+import invoice2 from "../../app/asserts/invoice2.png"
+import invoice3 from "../../app/asserts/invoice3.png"
 
 const BenefitContainer = () => {
     return(

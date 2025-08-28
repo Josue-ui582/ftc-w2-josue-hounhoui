@@ -1,8 +1,8 @@
 import React from "react";
 import HowItWorkCard from "./HowItWorkCard";
-import who1 from "../app/asserts/who1.png"
-import who2 from "../app/asserts/who2.png"
-import who3 from "../app/asserts/who3.png"
+import who1 from "../../app/asserts/who1.png"
+import who2 from "../../app/asserts/who2.png"
+import who3 from "../../app/asserts/who3.png"
 
 const HowItWorkCardContainer = () => {
     return(
