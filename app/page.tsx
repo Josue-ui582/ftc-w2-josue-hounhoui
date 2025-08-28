@@ -18,6 +18,9 @@ import SucessStorieContainer from "@/components/sucessSection/SucessStorieContai
 import SecondSucessStorie from "@/components/sucessSection/SecondSuccesStorie";
 import SecondSucessTitle from "@/components/sucessSection/SecondSucessTitle";
 import SecondSucessStorieContainer from "@/components/sucessSection/SecondSucessStorieContainer";
+import Testimony from "@/components/testimony/Testimony";
+import TestimonyTitle from "@/components/testimony/TestimonyTitle";
+import TestimonyContainer from "@/components/testimony/TestimonyContainer";
 
 export default function Home() {
   return (
@@ -61,6 +64,11 @@ export default function Home() {
         <SecondSucessTitle />
         <SecondSucessStorieContainer />
       </SecondSucessStorie>
+
+      <Testimony>
+        <TestimonyTitle />
+        <TestimonyContainer />
+      </Testimony>
     </>
   );
 }
