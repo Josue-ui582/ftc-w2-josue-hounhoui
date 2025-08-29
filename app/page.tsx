@@ -21,6 +21,9 @@ import SecondSucessStorieContainer from "@/components/sucessSection/SecondSucess
 import Testimony from "@/components/testimony/Testimony";
 import TestimonyTitle from "@/components/testimony/TestimonyTitle";
 import TestimonyContainer from "@/components/testimony/TestimonyContainer";
+import Pricing from "@/components/pricing/Pricing";
+import PricingTitle from "@/components/pricing/PricingTitle";
+import PricingCardContainer from "@/components/pricing/PricingContainer";
 
 export default function Home() {
   return (
@@ -69,6 +72,11 @@ export default function Home() {
         <TestimonyTitle />
         <TestimonyContainer />
       </Testimony>
+
+      <Pricing>
+        <PricingTitle />
+        <PricingCardContainer />
+      </Pricing>
     </>
   );
 }
