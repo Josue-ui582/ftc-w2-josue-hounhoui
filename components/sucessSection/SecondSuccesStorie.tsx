@@ -6,8 +6,8 @@ type SucessStorieProps = {
 
 const SecondSucessStorie: React.FC<SucessStorieProps> = ({children}) => {
     return(
-        <div className="flex justify-center items-center py-20">
-            <div className="w-[70%] flex flex-col gap-5">{children}</div>
+        <div className="flex justify-center items-center py-6 md:py-10">
+            <div className="flex flex-col justify-start items-start w-[90%] md:w-[70%] md:gap-4 gap-8">{children}</div>
         </div>
     )
 }

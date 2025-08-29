@@ -6,7 +6,7 @@ import ToggleSpendIn from "./ToggleSpendIn";
 
 const SucessStorieContainer = () => {
     return(
-        <div className="flex justify-center items-start gap-4">
+        <div className="flex md:flex-row flex-col justify-center items-start gap-4">
             <div className="flex flex-col justify-between items-start gap-4">
                 <div className="flex flex-col gap-4">
                     <ToggleSpendIn />
@@ -15,7 +15,7 @@ const SucessStorieContainer = () => {
                 <div className="flex justify-start items-start flex-col gap-4">
                     <div className="flex justify-start items-start gap-2">
                         <div>
-                            <CiCircleCheck className="bg-green-500 text-white rounded-full" />
+                            <CiCircleCheck className="bg-green-400 text-white rounded-full" />
                         </div>
                         <div>
                             <p className="text-sm">Analyze your business cost easily with group transaction thorugh tagging feature.</p>
@@ -23,7 +23,7 @@ const SucessStorieContainer = () => {
                     </div>
                     <div className="flex justify-start items-start gap-2">
                         <div>
-                            <CiCircleCheck className="bg-green-500 text-white rounded-full" />
+                            <CiCircleCheck className="bg-green-400 text-white rounded-full" />
                         </div>
                         <div>
                             <p className="text-sm">Add more than one card for payment. Integrated with more than 50+ payment method and support bulk payment.</p>
@@ -31,7 +31,7 @@ const SucessStorieContainer = () => {
                     </div>
                     <div className="flex justify-start items-start gap-2">
                         <div>
-                            <CiCircleCheck className="bg-green-500 text-white rounded-full" />
+                            <CiCircleCheck className="bg-green-400 text-white rounded-full" />
                         </div>
                         <div>
                             <p className="text-sm">Arrange your business expenses by date, name, etc., with just one click.</p>

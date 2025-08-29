@@ -5,9 +5,9 @@ import Image from "next/image";
 const Footer = () => {
     return(
         <footer className="flex justify-center items-center bg-white">
-            <div className="flex justify-center items-center flex-col w-[70%] py-20 gap-4">
-                <div className="flex justify-between items-start w-full">
-                    <div className="flex flex-col gap-4 w-[20%]">
+            <div className="flex justify-center items-center flex-col md:w-[70%] w-[90%] md:py-10 py-6 md:gap-4 gap-8">
+                <div className="flex md:flex-row flex-col md:justify-between items-start justify-start w-full gap-8">
+                    <div className="flex flex-col justify-start items-start gap-4 md:w-[20%]">
                         <div className="flex">
                             <Image 
                                 src={logo}
@@ -19,7 +19,7 @@ const Footer = () => {
                             <p className="text-gray-400 text-[13px]">Data visualization, and expense management for your business.</p>
                         </div>
                     </div>
-                    <div className="flex gap-4">
+                    <div className="grid md:grid-cols-4 grid-cols-2 md:gap-4 gap-8">
                         <div className="flex flex-col gap-4">
                             <h4 className="font-semibold text-sm">Product</h4>
                             <ul className="flex flex-col gap-2 text-[12px] text-gray-400">
@@ -63,12 +63,12 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="bg-gray-400 h-[1px] w-full"></div>
-                <div className="flex justify-between items-center w-full">
-                    <div className="flex gap-4">
+                <div className="flex md:flex-row flex-col md:justify-between md:items-center justify-start items-start w-full gap-8">
+                    <div className="flex md:flex-row flex-col md:gap-4 gap-6">
                         <p className="text-[13px]">Privacy Policy</p>
-                        <div className="bg-black w-[1px] self-stretch"></div>
+                        <div className="bg-black w-[1px] self-stretch hidden md:flex"></div>
                         <p className="text-[13px]">Terms & Conditions</p>
-                        <div className="bg-black w-[1px] self-stretch"></div>
+                        <div className="bg-black w-[1px] self-stretch hidden md:flex"></div>
                         <p className="text-[13px]">Cookie Policy</p>
                     </div>
                     <div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const HowItWorkTitle = () => {
     return(
-        <div className="flex flex-col text-center gap-4">
+        <div className="flex flex-col md:justify-center md:items-center justify-start items-start gap-4">
             <h4 className="text-blue-500 uppercase text-sm font-semibold">Howitworks</h4>
             <h1 className="text-white font-bold text-2xl">FewEasyStepsandDone</h1>
             <div className="text-gray-500 text-[14px]">

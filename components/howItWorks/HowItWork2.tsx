@@ -6,7 +6,7 @@ import stepper from "../../app/asserts/Stepper.png"
 const HowItWork2 = () => {
     return(
         <div className="flex justify-center items-center bg-[#201822]">
-            <div className="grid grid-cols-2 gap-6 w-[70%] py-20 items-stretch">
+            <div className="flex md:flex-row flex-col-reverse gap-6 md:w-[70%] w-[90%] py-20 items-stretch">
                 <div>
                     <Image
                         src={content}
@@ -19,7 +19,7 @@ const HowItWork2 = () => {
                         <h1 className="font-bold text-xl text-white">FewEasyStepsandDone</h1>
                         <p className="text-gray-400 text-sm leading-relaxed">In just few easy step, you are all set to manage your business finances. Manage all expenses with Spend.In all in one place.</p>
                     </div>
-                    <div className="mt-6">
+                    <div className="mt-6 md:h-[400px]">
                         <Image
                             src={stepper}
                             alt=""

@@ -7,7 +7,7 @@ type HowItWorkProps = {
 const HowItWork: React.FC<HowItWorkProps> = ({children}) => {
     return(
         <div className="flex justify-center items-center bg-[#201822] py-10">
-            <div className="w-[70%] flex flex-col gap-8">{children}</div>
+            <div className="md:w-[70%] w-[90%] flex flex-col justify-center items-center gap-8">{children}</div>
         </div>
     )
 }

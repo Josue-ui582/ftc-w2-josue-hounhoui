@@ -6,7 +6,7 @@ import who3 from "../../app/asserts/who3.png"
 
 const HowItWorkCardContainer = () => {
     return(
-        <div className="flex justify-center items-center gap-24">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-24">
             <HowItWorkCard 
                 src={who1}
                 text="Register your Spend.In account."

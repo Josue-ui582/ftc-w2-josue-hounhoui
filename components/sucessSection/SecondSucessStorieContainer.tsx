@@ -6,7 +6,7 @@ import ToggleSpendIn from "./ToggleSpendIn";
 
 const SecondSucessStorieContainer = () => {
     return(
-        <div className="flex justify-center items-start gap-4">
+        <div className="flex md:flex-row flex-col justify-center md:items-start items-center gap-4">
             <div className="flex flex-col justify-between items-start gap-4">
                 <div className="flex flex-col gap-4">
                     <ToggleSpendIn />

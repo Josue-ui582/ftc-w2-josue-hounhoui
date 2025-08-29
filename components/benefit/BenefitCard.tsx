@@ -11,11 +11,10 @@ type BenefitContainerProps = {
 const BenefitCard: React.FC<BenefitContainerProps> = ({title, text, src}) => {
     return(
         <div className="flex flex-col justify-between gap-4">
-            <div>
+            <div className="md:w-[300px]">
                 <Image 
                     src={src}
                     alt=""
-                    width={300}
                 />
             </div>
             <div>

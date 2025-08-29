@@ -5,7 +5,7 @@ export default function ToggleSpendIn() {
   const [active, setActive] = useState<"with" | "without">("with");
 
   return (
-    <div className="flex items-center bg-gray-100 rounded-full p-1 w-fit">
+    <div className="flex justify-center items-center bg-gray-100 rounded-full p-1 w-fit">
       <button
         onClick={() => setActive("with")}
         className={`px-6 py-2 text-sm font-medium rounded-full transition-all duration-300 cursor-pointer

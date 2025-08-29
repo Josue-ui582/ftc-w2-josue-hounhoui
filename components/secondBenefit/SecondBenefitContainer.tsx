@@ -7,7 +7,7 @@ import imageContainer from "../../app/asserts/Content.png"
 
 const SecondBenefitContainer = () => {
     return(
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-4">
             <div className="flex flex-col gap-4">
                 <div className="flex justify-center items-start gap-2">
                     <div>

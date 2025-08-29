@@ -59,7 +59,7 @@ const TestimonyContainer = () => {
   const sliderRef = useRef<Slider | null>(null);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -77,7 +77,7 @@ const TestimonyContainer = () => {
   };
 
   return (
-    <div className="max-w-6xl overflow-hidden px-4">
+    <div className="md:max-w-6xl w-[90%] overflow-hidden px-4">
       <Slider ref={sliderRef} {...settings}>
         {testimonies.map((t, i) => (
           <div key={i} className="px-2">

@@ -6,10 +6,10 @@ type TestimonyProps = {
 
 const Testimony: React.FC<TestimonyProps> = ({children}) => {
     return(
-        <div className="flex justify-center items-center bg-[#201822] py-20">
-            <div className="w-[70%] flex flex-col gap-4 items-center justify-center">{children}</div>
+        <div className="flex justify-center items-center bg-[#201822] md:py-10 py-6">
+            <div className="flex flex-col justify-center items-center w-[90%] md:w-[70%] gap-4">{children}</div>
         </div>
-    )
+    );
 }
 
 export default Testimony;
