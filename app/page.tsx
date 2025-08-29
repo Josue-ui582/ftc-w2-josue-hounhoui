@@ -25,6 +25,7 @@ import Pricing from "@/components/pricing/Pricing";
 import PricingTitle from "@/components/pricing/PricingTitle";
 import PricingCardContainer from "@/components/pricing/PricingContainer";
 import CallToAction from "@/components/call-to-action/CallToAction";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -80,6 +81,8 @@ export default function Home() {
       </Pricing>
 
       <CallToAction />
+
+      <Footer />
     </>
   );
 }
