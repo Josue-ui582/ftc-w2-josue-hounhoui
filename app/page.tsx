@@ -24,6 +24,7 @@ import TestimonyContainer from "@/components/testimony/TestimonyContainer";
 import Pricing from "@/components/pricing/Pricing";
 import PricingTitle from "@/components/pricing/PricingTitle";
 import PricingCardContainer from "@/components/pricing/PricingContainer";
+import CallToAction from "@/components/call-to-action/CallToAction";
 
 export default function Home() {
   return (
@@ -77,6 +78,8 @@ export default function Home() {
         <PricingTitle />
         <PricingCardContainer />
       </Pricing>
+
+      <CallToAction />
     </>
   );
 }
