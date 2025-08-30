@@ -3,7 +3,7 @@ import Image from "next/image";
 import frame1 from "../../app/asserts/Frame-1.png"
 import frame2 from "../../app/asserts/Frame-2.png"
 import frame3 from "../../app/asserts/Frame-3.png"
-import imageContainer from "../../app/asserts/Content.png"
+import imageContainer from "../../app/asserts/contenu.png"
 
 const SecondBenefitContainer = () => {
     return(
@@ -44,7 +44,7 @@ const SecondBenefitContainer = () => {
                     </div>
                     <div>
                         <h1 className="text-md font-bold text-black">Use of multi-card payments</h1>
-                        <p className="text-gray-400 text-[13px] mt-2">Have more than one debit or credit card? Don't worry, we support payments using more than one card.</p>
+                        <p className="text-gray-400 text-[13px] mt-2">Have more than one debit or credit card? Don&apos;t worry, we support payments using more than one card.</p>
                     </div>
                 </div>
             </div>
