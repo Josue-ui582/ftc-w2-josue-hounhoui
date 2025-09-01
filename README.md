@@ -23,7 +23,7 @@ Construite avec Next.js, TypeScript et TailwindCSS, elle combine performance, fi
 # 📦 Installation et exécution
 ## 1️⃣ Cloner le projet
 `bash
-git clone https://github.com/ton-utilisateur/spen-in.git
+git clone git@github.com:Josue-ui582/ftc-w2-josue-hounhoui.git
 cd spen-in
 `
 ## 2️⃣ Installer les dépendances
@@ -48,7 +48,7 @@ start : Lance le serveur en mode production
 lint : Vérifie la qualité du code avec ESLint
 
 # 📂 Structure du projet
-`csharp
+`bash
   spen-in/
 │── public/           # Fichiers statiques
 │── app/              # Dossier principal
