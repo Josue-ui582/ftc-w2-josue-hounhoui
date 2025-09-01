@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Spen.In – Application de gestion de budget
+Spen.In est une application web moderne qui permet aux utilisateurs de suivre leurs revenus, dépenses et objectifs financiers.
+Construite avec Next.js, TypeScript et TailwindCSS, elle combine performance, fiabilité et design responsive.
 
-## Getting Started
+# ✨ Fonctionnalités
+- 📊 Suivi en temps réel des revenus et dépenses
 
-First, run the development server:
+- 📝 Ajout, modification et suppression de transactions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🎯 Définition et suivi d’objectifs financiers
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📅 Visualisation des dépenses par période
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 💾 Stockage et persistance des données
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎨 Interface utilisateur moderne et responsive avec TailwindCSS
 
-## Learn More
+# 🚀 Technologies utilisées
+- ⚡ Next.js – Framework React
+- 🔒 TypeScript – Sécurité et robustesse du code
+- 🎨 Tailwind CSS - Design rapide et responsive
 
-To learn more about Next.js, take a look at the following resources:
+# 📦 Installation et exécution
+## 1️⃣ Cloner le projet
+`bash
+git clone https://github.com/ton-utilisateur/spen-in.git
+cd spen-in
+`
+## 2️⃣ Installer les dépendances
+`bash
+  npm install
+  yarn install
+`
+## 3️⃣ Lancer le serveur de développement
+`bash
+  npm run dev yarn dev
+`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Le projet sera disponible sur 👉 http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 🛠️ Scripts disponibles
+dev : Lance l’application en mode développement
 
-## Deploy on Vercel
+build : Génère la version de production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+start : Lance le serveur en mode production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+lint : Vérifie la qualité du code avec ESLint
+
+# 📂 Structure du projet
+`csharp
+  spen-in/
+│── public/           # Fichiers statiques
+│── app/              # Dossier principal
+    |── asserts/      # Dossier image
+│   ├── components/   # Composants réutilisables
+│── package.json
+│── tsconfig.json
+│── tailwind.config.js
+`
